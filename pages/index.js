@@ -2,14 +2,15 @@ import React from 'react'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import {Backgroundindex} from '../styles/pages/IndexStyle';
 
 const index = () => {
   return (
 
    
-    <div>
-      <h1>INDEX</h1>
-    </div>
+    <Backgroundindex>
+      <h1>HOLA</h1>
+    </Backgroundindex> 
     
   )
 }

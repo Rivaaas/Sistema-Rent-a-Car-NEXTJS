@@ -31,7 +31,7 @@ const FormVehicleReceipt = () => {
                             <Form.Control as="textarea" rows={3} />
                             
                             <h3>Kilometraje</h3>
-                            <Form.Control type="password" placeholder="Numero de celular" />
+                            <Form.Control type="password" placeholder="KM" />
 
                             <h3>Correo</h3>
                             <Form.Control type="password" placeholder="Correo electronico para enviar copia (pdf) de vehiculo devuelto" />
