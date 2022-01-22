@@ -15,3 +15,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.fondo {
+  background-image: url("../public/image.png");
+  width: 76.2.1rem;
+  height: 36.5rem;
+  background-position: center;
+}
+
+.maxmin{
+  max-width:2000px;
+  max-height: 640px;
+}
+

@@ -1,17 +1,18 @@
 import React from 'react'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Carousel } from 'react-bootstrap';
+import Carousel1st from '../components/Carousel/Carousel1st';
 
-import {Backgroundindex} from '../styles/pages/IndexStyle';
 
 const index = () => {
-  return (
 
-   
-    <Backgroundindex>
-      <h1>HOLA</h1>
-    </Backgroundindex> 
-    
+
+  return (
+    <>
+      <Carousel1st/>
+    </>
+
   )
 }
 
