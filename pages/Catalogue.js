@@ -55,6 +55,18 @@ const Catalogue = () => {
             precio: 'Precios',
             image: '',
         },
+        {
+            title: 'Auto',
+            description: 'DescripcionDeAuto',
+            precio: 'Precios',
+            image: '',
+        },
+        {
+            title: 'Auto',
+            description: 'DescripcionDeAuto',
+            precio: 'Precios',
+            image: '',
+        },
     ]);
 
 

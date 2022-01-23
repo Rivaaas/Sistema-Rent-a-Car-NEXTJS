@@ -28,3 +28,10 @@ a {
   max-height: 640px;
 }
 
+.fondoContrato{
+  background-image: url("../public/fondo1.jpg");
+}
+
+.centrar{
+  text-align: center;
+}
