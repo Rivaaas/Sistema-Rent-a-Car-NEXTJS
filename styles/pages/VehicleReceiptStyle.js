@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Inputdate = styled.input`
+export const Inputdate = styled.input`
     padding: 0px;
     margin: 1px;
     font-family: sans-serif;

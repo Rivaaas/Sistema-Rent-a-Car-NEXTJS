@@ -10,12 +10,12 @@ const VehicleReceipt = () => {
                     <div className='col-sm-6 centrar'>
                         <FormVehicleReceipt/>
                     </div>
-                    <div className='col-sm-6 centrar mt-60%'>
+                    <div className='col-sm-6 centrar '>
                         <h1>
                             FOTO DE LOS VEHICULOS QUE SE ESTAN DEVOLVIENDO
                         </h1>
                     </div>
-                    <Button variant="info" width="">Devoler Vehiculo</Button>
+                    <Button variant="info">Devoler Vehiculo</Button>
                 </div>
             </div>
         </>
