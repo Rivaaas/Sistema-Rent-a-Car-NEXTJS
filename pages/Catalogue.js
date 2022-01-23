@@ -77,11 +77,12 @@ const Catalogue = () => {
                 <div className='row'>
                     {
                         autos.map(auto => (
-                            <div className='col-sm-3'>
+                            <div className='col-sm-3' key={auto.title}>
                                 <Card style={{ width: '15rem', height: '19rem' }}>
                                     <img src='/3.jpg' alt="" width="100%" height="100%" />
                                     <Card.Body>
                                         <Card.Title>{auto.title}</Card.Title>
+
                                         <Card.Text>
                                             {auto.description}
                                             <TextPrecio>
