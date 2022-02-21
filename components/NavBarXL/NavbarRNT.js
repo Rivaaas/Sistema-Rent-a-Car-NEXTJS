@@ -2,6 +2,7 @@ import React from 'react';
 
 import Link from 'next/link';
 
+
 const NavbarRNT = () => {
 
 
@@ -9,34 +10,22 @@ const NavbarRNT = () => {
     return (
 
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light ml-3">
-                <div className="container-fluid ">
-                    <div className='ml-5'>
-                        <Link className="navbar-brand" href="/">Rent A Car!</Link>
-                    </div>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a className="navbar-brand" href="/">Rent A Car!</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+                        <span class="navbar-toggler-icon"></span>
+
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
-                                <div className='ml-5'>
-                                    <Link className="nav-link active" aria-current="page" href='/Catalogue' >Catalogo</Link>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a className="nav-link active" aria-current="page" href='/Catalogue' >Catalogo</a>
+                            <a className="nav-link" href="Agreement">Contrato</a>
+                            <a className="nav-link" href="/VehicleReceipt" tabIndex="-1">Recibir Vehiculo</a>
 
-                                </div>
-                            </li>
-                            <li className="nav-item">
-                                <div className='ml-3'>
-                                    <Link className="nav-link" href="Agreement">Contrato</Link>
-                                </div>
-                            </li>
-                            <li className="nav-item">
-                                <div>
-                                    <Link className="nav-link" href="/VehicleReceipt" tabIndex="-1">Recibir Vehiculo</Link>
-                                </div>
-                            </li>
-                        </ul>
-
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </div>
                     </div>
                 </div>
             </nav>
