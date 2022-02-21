@@ -7,6 +7,8 @@ import Carousel1st from '../components/Carousel/Carousel1st';
 
 const index = () => {
 
+  
+
 
   return (
     <>
