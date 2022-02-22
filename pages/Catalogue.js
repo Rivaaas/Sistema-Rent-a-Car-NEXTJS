@@ -8,7 +8,7 @@ const Fila = styled.div`
     margin-top: 5px;
 `;
 
-const catalogue = () => {
+const Catalogue = () => {
 
     const [autos, setAutos] = useState([
         {
@@ -102,4 +102,4 @@ const catalogue = () => {
     )
 }
 
-export default catalogue;
+export default Catalogue;
