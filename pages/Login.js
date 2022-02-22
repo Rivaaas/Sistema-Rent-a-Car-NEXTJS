@@ -11,7 +11,7 @@ const FormStyle = styled.div`
     margin-top: 120px;
 `;
 
-const Login = () => {
+const login = () => {
     return (
         <>
             <FormStyle>
@@ -35,4 +35,4 @@ const Login = () => {
     )
 }
 
-export default Login
+export default login;

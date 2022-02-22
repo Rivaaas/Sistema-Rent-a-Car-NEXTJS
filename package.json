@@ -2,7 +2,7 @@
   "name": "rent",
   "private": true,
   "scripts": {
-    "deploy" : "yarn yarn build",
+    "deploy" : "npm init npm run build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

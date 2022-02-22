@@ -2,7 +2,7 @@ import React from 'react'
 import EscogeAuto from '../components/ComoFunciona/EscogeAuto'
 
 
-const ComoFunciona = () => {
+const comoFunciona = () => {
   return (
     <>
         <EscogeAuto/>
@@ -10,4 +10,4 @@ const ComoFunciona = () => {
     )
 }
 
-export default ComoFunciona
+export default comoFunciona

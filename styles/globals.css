@@ -35,3 +35,14 @@ a {
 .centrar{
   text-align: center;
 }
+
+.nave{
+  color: black;
+  height: 10%;
+  display: flex;
+}
+
+.color{
+  background-color: aqua;
+  border: 1px solid black;
+}

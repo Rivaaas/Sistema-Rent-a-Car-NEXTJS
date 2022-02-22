@@ -2,7 +2,7 @@ import React from 'react'
 import FormVehicleReceipt from '../components/Form/FormVehicleReceipt'
 import { Button } from 'react-bootstrap'
 
-const VehicleReceipt = () => {
+const vehicleReceipt = () => {
     return (
         <>
             <div className='container'>
@@ -22,4 +22,4 @@ const VehicleReceipt = () => {
     )
 }
 
-export default VehicleReceipt
+export default vehicleReceipt

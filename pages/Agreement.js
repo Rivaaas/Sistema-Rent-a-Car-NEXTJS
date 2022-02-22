@@ -3,7 +3,7 @@ import FormularioPersona from '../components/Form/FormPerson';
 import FormularioVehiculo from '../components/Form/FormVehicle';
 import { Button} from 'react-bootstrap';
 
-const Agreement = () => {
+const agreement = () => {
     return (
         <>
             <div className='container'>
@@ -21,4 +21,4 @@ const Agreement = () => {
     )
 }
 
-export default Agreement
+export default agreement

@@ -1,23 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import { Button, Card } from 'react-bootstrap';
 import styled from 'styled-components';
-import { Btn, Img} from '../styles/pages/CatalogueStyle';
+import { Btn, Img } from '../styles/pages/CatalogueStyle';
 import Image from 'next/image';
 
 const Fila = styled.div`
     margin-top: 5px;
 `;
 
-
-
-
-
-const Catalogue = () => {
-
-
-
-
-
+const catalogue = () => {
 
     const [autos, setAutos] = useState([
         {
@@ -86,7 +77,7 @@ const Catalogue = () => {
                 <div className='row'>
                     {
                         autos.map(auto => (
-                            <div className='col-sm-3 col-3  d-flex mb-4' key={auto.title}>
+                            <div className='col-sm-3 col-12 d-flex mb-4 justify-content-center' key={auto.title}>
                                 <Card style={{ width: '15rem', height: '18rem' }}>
                                     <Img className='mt-4 d-flex' src='/3.jpg' alt="" width="90%" height="90%" />
 
@@ -111,4 +102,4 @@ const Catalogue = () => {
     )
 }
 
-export default Catalogue
+export default catalogue;
