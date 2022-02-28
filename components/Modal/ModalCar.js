@@ -17,7 +17,7 @@ const ModalCar = ({ handleClose, show, selectedCar }) => {
                     <Modal.Body>{selectedCar.description}</Modal.Body>
                     <Modal.Footer>
                         <Button variant="btn btn-primary" onClick={handleClose}>
-                            Cerrar
+                            Cerrarr
                         </Button>
                         
                     </Modal.Footer>
