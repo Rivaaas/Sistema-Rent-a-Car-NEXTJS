@@ -19,18 +19,9 @@ const NavbarRNT = () => {
                         <Nav className="nave">
                             <Nav.Link href="/Catalogue" >
                             <Items>Vehiculos</Items>
-                            </Nav.Link>
-                            <Nav.Link href="/agreement">
-                            <Items>Contrato</Items>
-                            </Nav.Link>
+                            </Nav.Link>                       
                             <Nav.Link href="/comoFunciona">
                             <Items>Como Funciona</Items>
-                            </Nav.Link>
-                            <Nav.Link href="/login">
-                            <Items>Log In</Items>
-                            </Nav.Link>
-                            <Nav.Link href="/vehicleReceipt">
-                            <Items>Entrega de vehiculo</Items>
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
