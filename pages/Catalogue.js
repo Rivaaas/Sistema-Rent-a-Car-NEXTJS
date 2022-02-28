@@ -1,15 +1,24 @@
 import React, { useState, useEffect } from 'react'
-import { Button, Card } from 'react-bootstrap';
+import { Button, Card, Modal } from 'react-bootstrap';
 import styled from 'styled-components';
 import { Btn, Img } from '../styles/pages/CatalogueStyle';
 import Image from 'next/image';
+import ModalCar from '../components/Modal/ModalCar';
+
 
 const Fila = styled.div`
     margin-top: 5px;
 `;
 
 const Catalogue = () => {
-
+    const [show, setShow] = useState(false);
+    const [selectedCar, setSelectedCard] = useState({
+        title: '',
+        description: '',
+        precio: '',
+        anio: '',
+        image: '',
+    });
     const [autos, setAutos] = useState([
         {
             title: 'Chevrolet',
@@ -69,11 +78,15 @@ const Catalogue = () => {
         },
     ]);
 
+    const handleClose = () => setShow(false);
+    const handleShow = (auto) => {
+        setSelectedCard(auto);
+        setShow(true);
+    };
 
     return (
         <>
             <div className='container'>
-
                 <div className='row'>
                     {
                         autos.map(auto => (
@@ -90,14 +103,27 @@ const Catalogue = () => {
                                         </Card.Text>
 
                                     </Card.Body>
-                                    <Btn className='' variant="primary"><h2>{auto.precio}</h2></Btn>
-
+                                    <Btn
+                                        className=''
+                                        variant="primary"
+                                        onClick={() => {
+                                            handleShow(auto);
+                                        }}
+                                    >
+                                        <h2>{auto.precio}</h2>
+                                    </Btn>
                                 </Card>
                             </div>
                         ))
                     }
                 </div>
             </div>
+            <ModalCar
+                show={show}
+                handleShow={handleShow}
+                handleClose={handleClose}
+                selectedCar={selectedCar}
+            />
         </>
     )
 }

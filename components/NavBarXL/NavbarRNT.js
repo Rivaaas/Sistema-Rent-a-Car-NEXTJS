@@ -7,18 +7,17 @@ import { Items, Title, Color } from '../../styles/pages/NavBarStyle';
 
 const NavbarRNT = () => {
     return (
-
         <Navbar collapseOnSelect expand="lg" bg="light" variant="ligth" >
-                <Container classname="nave">
+                <Container className="nave">
                     <Navbar.Brand href="/" className="nave" >
                         <Title>Inicio</Title>
                     </Navbar.Brand>
-                    <Navbar.Toggle classname="border" aria-controls="responsive-navbar-nav">
+                    <Navbar.Toggle className="border" aria-controls="responsive-navbar-nav">
                         <Button variant="dark">Menu</Button>
                     </Navbar.Toggle>
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="nave">
-                            <Nav.Link href="/catalogue" >
+                            <Nav.Link href="/Catalogue" >
                             <Items>Vehiculos</Items>
                             </Nav.Link>
                             <Nav.Link href="/agreement">
