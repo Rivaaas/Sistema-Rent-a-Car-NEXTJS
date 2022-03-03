@@ -1,12 +1,9 @@
-import React, { useState } from 'react'
-
+import React from 'react'
 import { Button, Modal } from 'react-bootstrap';
 
+
 const ModalCar = ({ handleClose, show, selectedCar }) => {
-
-
-    
-
+   
     return (
         <>
             <div>
@@ -17,9 +14,16 @@ const ModalCar = ({ handleClose, show, selectedCar }) => {
                     <Modal.Body>{selectedCar.description}</Modal.Body>
                     <Modal.Footer>
                         <Button variant="btn btn-primary" onClick={handleClose}>
-                            Cerrarr
+                            Cerrar
                         </Button>
-                        
+                        <Button variant="btn btn-warning" onClick={() => {
+                            window.location.href = '/ContactForRent';
+                        }}
+
+                        >
+                            Rent!
+                        </Button>
+
                     </Modal.Footer>
                 </Modal>
             </div>

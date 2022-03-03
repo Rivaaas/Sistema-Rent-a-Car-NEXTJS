@@ -20,7 +20,7 @@ const NavbarRNT = () => {
                             <Nav.Link href="/Catalogue" >
                             <Items>Vehiculos</Items>
                             </Nav.Link>                       
-                            <Nav.Link href="/comoFunciona">
+                            <Nav.Link href="/Instructions">
                             <Items>Como Funciona</Items>
                             </Nav.Link>
                         </Nav>

@@ -20,13 +20,11 @@ export const TextPrecio = styled.p`
 
 export const Btn = styled.button`
     width: 100%;
-    height: 20%;
-    align-items: center;
+    height: 10%;
     color: black;
     background-color: gainsboro;
     border: 1px solid gray;
     font-family: sans-serif;
-    justify-items: center;
 `;
 
 
@@ -37,3 +35,4 @@ export const Img = styled.img`
 export const H3 = styled.h3`
     font-weight: 600;
 `;
+
