@@ -35,8 +35,6 @@ const Contact = () => {
             <Form.Control type="email" placeholder=" " />
           </Form.Group>
         </div>
-
-
         <div className='d-flex justify-content-center mt-3'>
           <Button variant="primary" type="submit">
             Solicitar Auto!

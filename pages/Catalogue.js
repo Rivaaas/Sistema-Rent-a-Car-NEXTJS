@@ -108,7 +108,7 @@ const Catalogue = () => {
                                         variant="primary"
                                         onClick={() => {
                                             handleShow(auto);
-                                            
+
                                         }}
                                     >
                                         <h2>Rentar</h2>
