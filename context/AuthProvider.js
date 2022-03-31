@@ -15,6 +15,8 @@ const AuthProvider = ({ children }) => {
         logged : false
     });
 
+
+
     return (
         <AuthContext.Provider
             value={{
