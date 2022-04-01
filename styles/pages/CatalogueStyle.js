@@ -25,6 +25,8 @@ export const Btn = styled.button`
     background-color: gainsboro;
     border: 1px solid gray;
     font-family: sans-serif;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
 `;
 
 
@@ -34,5 +36,10 @@ export const Img = styled.img`
 
 export const H3 = styled.h3`
     font-weight: 600;
+    text-align: center;
+`;
+
+export const Title = styled.h2`
+  text-align: center;
 `;
 
