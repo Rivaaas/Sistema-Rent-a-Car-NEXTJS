@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import {FooterB} from '../../styles/components/FooterStyle'
 
 const Footer = () => {
     return (
         <>
-            <footer className='text-white py-4 bg-dark'>
+            <FooterB className='text-white py-4 bg-dark' style>
                 <div className='container'>
                     <nav className='row'>
                         <ul className='col-12 col-md-3 list-unstyled'>
@@ -24,7 +25,7 @@ const Footer = () => {
                         </ul>
                         <ul className='col-12 col-md-3 list-unstyled text-center'>
                             <li className='font-weigth-bold mb-2 text-center'>Test</li>
-                            <img className='m-2' src='/facebook.png' width='30' />
+                            <a href="##"><img className='m-2' src='/facebook.png' width='30' /></a>
                             <img className='m-2' src='/instagram.png' width='30' />
                             <img className='m-2' src='/linkedin.png' width='30' />
                             <img className='m-2'src='/twitter.png' width='30' />
@@ -34,7 +35,7 @@ const Footer = () => {
                     
                 </div>
 
-            </footer>
+            </FooterB>
         </>
     )
 }
