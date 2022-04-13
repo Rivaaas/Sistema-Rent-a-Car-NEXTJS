@@ -1,38 +1,20 @@
 import { useState, createContext } from 'react';
-import axios from 'axios';
 
+const AuthContext = createContext({});
 
-const AuthContext = createContext();
-
-
-const AuthProvider = ({ children }) => {
-
-    //State para guardar los datos de logIn
-    const [credentials,setCredentials] = useState({
+export const AuthProvider = ({ children }) => {
+    const [auth, setAuth] = useState({
         name : "",
-        email: '',
-        pass : '',
+        token : '',
         logged : false
     });
 
-
-
     return (
-        <AuthContext.Provider
-            value={{
-                //Lo que se exportara
-            }}
-        >
-            {children}
+        <AuthContext.Provider value={{auth, setAuth}}>
+          {children}
         </AuthContext.Provider>
-    )
+    );
+};
 
-}
-
-
-export {
-    AuthProvider
-}
-
-export default AuthContext
+export default AuthContext;
 
