@@ -13,6 +13,7 @@ const Fila = styled.div`
 `;
 
 const Catalogue = () => {
+
     const [show, setShow] = useState(false);
     const [selectedCar, setSelectedCard] = useState({
         title: '',
@@ -26,6 +27,7 @@ const Catalogue = () => {
     ])
 
     const handleClose = () => setShow(false);
+
     const handleShow = (auto) => {
         setSelectedCard(auto);
         setShow(true);
@@ -80,6 +82,7 @@ const Catalogue = () => {
                 handleShow={handleShow}
                 handleClose={handleClose}
                 selectedCar={selectedCar}
+                autos={autos}
             />
         </>
     )

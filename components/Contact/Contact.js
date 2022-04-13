@@ -5,6 +5,12 @@ const Contact = () => {
   return (
     <>
       <Form>
+      <div className='d-flex justify-content-center mt-4'>
+          <Form.Group className=" w-50 " >
+            <Form.Label>Vehiculo</Form.Label>
+            <Form.Control type="email" placeholder=" " />
+          </Form.Group>
+        </div>
         <div className='d-flex justify-content-center mt-4'>
           <Form.Group className="mb-6 w-50 " >
             <Form.Label>Nombre</Form.Label>
